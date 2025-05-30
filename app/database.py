@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
 
-# Make sure to URL encode special characters like @ in passwords (which you've done as %40)
-DATABASE_URL = "mysql+pymysql://root:Ammar%40261996@localhost:3306/email_app"
+
+DATABASE_URL = "mysql+pymysql://root:YourPass@localhost:3306/email_app"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
