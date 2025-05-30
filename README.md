@@ -16,3 +16,10 @@ This is a simple search application built using **FastAPI**, **SQLAlchemy**, and
 
 ## 📂 Project Structure
 
+email_search_app/
+├── app/
+│ ├── init.py
+│ ├── database.py
+│ └── routes.py
+├── main.py
+└── README.md
